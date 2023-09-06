@@ -31,7 +31,7 @@ export default function Home() {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
-      ><Tex>Pretty Good, Inc.</Tex></Box>
+      ><Tex>Pretty Good, Inc.</Tex></Box> 
       <Con
         style={{
           backgroundImage: `url(${happywife})`,
