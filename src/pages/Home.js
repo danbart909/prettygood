@@ -19,19 +19,35 @@ export default function Home() {
     >
       <Box
         display='flex'
+        flexDirection='column'
         m='1vw 1vw 3vw'
         p='1vw 2vw'
         height='25vh'
         justifyContent='center'
         alignItems='center'
-        // fontSize='calc(24px + 6 * ((100vw - 335px) / 1265))'
         border='1px solid white'
         style={{
           backgroundImage: `url(${tiedye})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
-      ><Tex>Pretty Good, Inc.</Tex></Box> 
+      >
+        <Tex
+          display='flex'
+          flexDirection='column'
+          gap='2vh'
+        >
+          <Row
+            fontSize='calc(34px + 10 * ((100vw - 335px) / 1265))'
+            alignSelf='center'
+          >Pretty Good, Inc.</Row>
+          <Row
+            alignSelf='center'
+            fontSize='calc(18px + 10 * ((100vw - 335px) / 1265))'
+          >Not Bad At All Since 2016</Row>
+        </Tex>
+      </Box>
+
       <Con
         style={{
           backgroundImage: `url(${happywife})`,
@@ -45,6 +61,7 @@ export default function Home() {
           <Tex>Happy Wife Junk Service</Tex>
         </Link>
       </Con>
+
       <Con
         style={{
           backgroundImage: `url(${wrkr})`,
@@ -59,6 +76,7 @@ export default function Home() {
           <Tex>wrkr</Tex>
         </Link>
       </Con>
+
       <Con
         style={{
           backgroundImage: `url(${roundbox})`,
@@ -67,6 +85,7 @@ export default function Home() {
       >
         <Tex>Coming Soon - Roundbox</Tex>
       </Con>
+
       <Con
         style={{
           backgroundImage: `url(${taxes})`,
@@ -75,6 +94,7 @@ export default function Home() {
       >
         <Tex>Coming Soon - Pretty Good Tax Service</Tex>
       </Con>
+
       <Con
         style={{
           backgroundImage: `url(${ring})`,
