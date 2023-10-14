@@ -37,14 +37,14 @@ export default function Home() {
           flexDirection='column'
           gap='2vh'
         >
-          <Row
-            fontSize='calc(34px + 10 * ((100vw - 335px) / 1265))'
+          <Box
             alignSelf='center'
-          >Pretty Good, Inc.</Row>
-          <Row
+            fontSize='calc(34px + 10 * ((100vw - 335px) / 1265))'
+          >Pretty Good, Inc.</Box>
+          <Box
             alignSelf='center'
             fontSize='calc(18px + 10 * ((100vw - 335px) / 1265))'
-          >Not Bad At All Since 2016</Row>
+          >Not Bad At All Since 2016</Box>
         </Tex>
       </Box>
 
@@ -83,7 +83,12 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <Tex>Coming Soon - Roundbox</Tex>
+      <Link
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        to='http://roundbox.prettygoodinc.com'
+      >
+          <Tex>Coming Soon - Roundbox</Tex>
+        </Link>
       </Con>
 
       <Con
@@ -103,7 +108,8 @@ export default function Home() {
           // backgroundAttachment: 'fixed'
         }}
       >
-        <Tex>Coming Soon - The Amazing Utility Ring of Wonder and not Evil</Tex></Con>
+        <Tex>Coming Soon - The Amazing Utility Ring of Wonder and not Evil</Tex>
+      </Con>
     </Col>
   )
 }
