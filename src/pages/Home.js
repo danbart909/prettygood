@@ -48,48 +48,48 @@ export default function Home() {
         </Tex>
       </Box>
 
-      <Con
-        style={{
-          backgroundImage: `url(${happywife})`,
-          backgroundPosition: 'center',
-        }}
-      >
-        <Link
-          style={{ textDecoration: 'none', color: 'inherit' }}
-          to='http://www.happywifejunk.com'
-        >
-          <Tex>Happy Wife Junk Service</Tex>
-        </Link>
-      </Con>
-
-      <Con
-        style={{
-          backgroundImage: `url(${wrkr})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-        }}
-      >
-        <Link
-          style={{ textDecoration: 'none', color: 'inherit' }}
-          to='https://play.google.com/store/apps/details?id=com.wrkr'
-        >
-          <Tex>wrkr</Tex>
-        </Link>
-      </Con>
-
-      <Con
-        style={{
-          backgroundImage: `url(${roundbox})`,
-          backgroundPosition: 'center',
-        }}
-      >
       <Link
         style={{ textDecoration: 'none', color: 'inherit' }}
-        to='http://roundbox.prettygoodinc.com'
+        to='http://www.happywifejunk.com'
       >
-          <Tex>Coming Soon - Roundbox</Tex>
-        </Link>
-      </Con>
+        <Con
+          style={{
+            backgroundImage: `url(${happywife})`,
+            backgroundPosition: 'center',
+          }}
+        >
+            <Tex>Happy Wife Junk Service</Tex>
+        </Con>
+      </Link>
+
+      <Link
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        to='https://play.google.com/store/apps/details?id=com.wrkr'
+      >
+        <Con
+          style={{
+            backgroundImage: `url(${wrkr})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+          }}
+        >
+          <Tex>wrkr</Tex>
+        </Con>
+      </Link>
+
+      <Link
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        to='https://roundbox.prettygoodinc.com'
+      >
+        <Con
+          style={{
+            backgroundImage: `url(${roundbox})`,
+            backgroundPosition: 'center',
+          }}
+        >
+          <Tex>Roundbox</Tex>
+        </Con>
+      </Link>
 
       <Con
         style={{
