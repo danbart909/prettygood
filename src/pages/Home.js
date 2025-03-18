@@ -78,7 +78,7 @@ export default function Home() {
 
         <Link
           style={{ textDecoration: 'none', color: 'inherit' }}
-          to='https://roundbox.prettygoodinc.com'
+          to='https://www.etsy.com/shop/WoodArtisan909'
         >
           <Col
             component={motion.div}
