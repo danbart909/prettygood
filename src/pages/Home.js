@@ -224,6 +224,29 @@ export default function Home() {
         </Box>
       </Row>
 
+      <Row
+        m='1vw 0 0 0'
+        justifyContent='center'
+      >
+        <Row>
+          <Link
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            to='/privacypolicy'
+          >wrkr Privacy Policy</Link>
+        </Row>
+        <Row
+          m='0 2vw'
+        >-</Row>
+        <Row>
+          <Link
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            to='/deleteaccount'
+          >
+            Delete wrkr Account
+          </Link>
+        </Row>
+      </Row>
+
     </Col>
   )
 }

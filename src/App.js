@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import FAQ from './pages/FAQ'
 import Info from './pages/Info'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import DeleteAccount from './pages/DeleteAccount'
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/deleteaccount' element={<DeleteAccount />} />
         {/* <Route path='/about' element={<About />} /> */}
         {/* <Route path='/faq' element={<FAQ />} /> */}
         {/* <Route path='/info' element={<Info />} /> */}
