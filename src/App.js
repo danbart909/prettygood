@@ -26,7 +26,7 @@ export default function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/privacy' element={<PrivacyPolicy />} />
         <Route path='/deleteaccount' element={<DeleteAccount />} />
         {/* <Route path='/about' element={<About />} /> */}
         {/* <Route path='/faq' element={<FAQ />} /> */}

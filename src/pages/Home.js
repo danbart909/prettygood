@@ -231,7 +231,7 @@ export default function Home() {
         <Row>
           <Link
             style={{ textDecoration: 'none', color: 'inherit' }}
-            to='/privacypolicy'
+            to='/privacy'
           >wrkr Privacy Policy</Link>
         </Row>
         <Row
