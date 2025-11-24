@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
   return (
     <Col
       backgroundColor='black'
-      height='97vh'
+      // height='97vh'
     >
       <Row
         m='1vw'
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
         p='1vw'
         justifyContent='center'
         border='1px solid white'
-      >WRKR (“we,” “us,” or “our”) is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data.
+      >WRKR (“we,” “us,” or “our”) is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data.{"\n"}
 
       By using the WRKR app, you agree to the practices described in this Privacy Policy.</Row>
       <Row
