@@ -10,6 +10,7 @@ import FAQ from './pages/FAQ'
 import Info from './pages/Info'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import DeleteAccount from './pages/DeleteAccount'
+import CSAE from './pages/CSAE'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/privacy' element={<PrivacyPolicy />} />
         <Route path='/deleteaccount' element={<DeleteAccount />} />
+        <Route path='/csae' element={<CSAE />} />
         {/* <Route path='/about' element={<About />} /> */}
         {/* <Route path='/faq' element={<FAQ />} /> */}
         {/* <Route path='/info' element={<Info />} /> */}
